@@ -24,12 +24,12 @@ function accessElementInArray(array,index) {
   return array[index]
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(array) {
+function RemoveElementFromBeginningOfArray(array) {
   var newArray = array.slice(1)
   return newArray
 }
 
-function removeElementFromBeginningOfArray(array) {
+function destructivelyremoveElementFromBeginningOfArray(array) {
   array.pop()
   return array
 }
