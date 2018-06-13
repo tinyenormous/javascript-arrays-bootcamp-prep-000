@@ -33,3 +33,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.pop()
   return array
 }
+
+function destructivelyRemoveElementFromEndOfArray(array) {
+  
+}
