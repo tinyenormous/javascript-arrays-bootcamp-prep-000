@@ -29,6 +29,6 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 }
 
 function removeElementFromBeginningOfArray(array) {
-  return unshift.array
+  return array.pop()
   
 }
